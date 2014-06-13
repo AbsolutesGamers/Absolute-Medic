@@ -1,0 +1,39 @@
+name: AbsoluteMedic
+version: 2.0
+main: tk.absolutesgamers.medic.Medic
+author: Absolute
+description: A medic plugin!
+
+commands:
+  life:
+    usage: /<command> or /<command> (Player)
+    description: Regenerate the player life or the target player life!
+  hunger:
+    usage: /<command> or /<command> (Player)
+    description: Regenerate the player food or the target player food!
+
+permissions:
+  life.sender:
+    default: op
+    description: Allow the player regenerate your life!
+  life.target:
+    default: op
+    description: Allow the player regenerate the life of other players!
+  life.sign.create:
+    default: op
+    description: Allow the player create the sign of life!
+  life.sign.use:
+    default: op
+    description: Allow the player use the sign of life!
+  hunger.sender:
+    default: op
+    description: Allow the player regenerate your hunger!
+  hunger.target:
+    default: op
+    description: Allow the player regenerate the hunger of other players!
+  hunger.sign.create:
+    default: op
+    description: Allow the player create the sign of hunger!
+  hunger.sign.use:
+    default: op
+    description: Allow the player use the sign of hunger!

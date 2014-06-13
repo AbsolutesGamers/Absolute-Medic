@@ -1,0 +1,43 @@
+life:
+  console:
+    invalidCommand: '§4Invalid Command!'
+    sender:
+      sucess: '§5You healed the §r§3%p§r§5 wih successfully!'
+      invalidPlayer: '§4Can''t find the player %p!'
+    target:
+      sucess: '§5You have been healed!'
+  player:
+    sender:
+      invalidPlayer: '§4Can''t find the player %p!'
+      invalidCommand: '§4Invalid Command!'
+      noPermission:
+        yourself: '§4You haven''t permission to do this!'
+        other: '§4You haven''t permission to do this!'
+      sucess:
+        yourself: '§5You have been healed with sucess!'
+        other: '§5You healed the §r§3%p§r§ with sucess!'
+    target:
+      sucess: '§5You have been healed by the §r§3%p§r§5!'
+  sign:
+    sucess: '§5You have been healed!'
+hunger:
+  console:
+    invalidCommand: '§4Invalid Command!'
+    sender:
+      sucess: '§5You fed §r§3%p§r§5 wih successfully!'
+      invalidPlayer: '§4Can''t find the player %p!'
+    target:
+      sucess: '§5You were fed!'
+  player:
+    sender:
+      invalidCommand: '§4Invalid Command!'
+      noPermission:
+        yourself: '§4You haven''t permission to do this!'
+        other: '§4You haven''t permission to do this!'
+      sucess:
+        yourself: '§5You were fed with sucess!'
+        other: '§5You fed §r§3%p§r§ with sucess!'
+    target:
+      sucess: '§5You were fed by the §r§3%p§r§5!'
+  sign:
+    sucess: '§5You were fed!'
