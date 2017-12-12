@@ -49,7 +49,7 @@ public class Hunger implements CommandExecutor {
 				return true;
 			}
 			if((args.length == 0) && (!player.hasPermission("hunger.sender"))) {
-				player.sendMessage(files.getTranlation().getString("hunger.player.sender.noPermission.yourself"));
+				player.sendMessage(files.getTranlation().getString("hunger.player.sender.noPermission.yourself").replaceAll("&", "§"));
 				return true;
 			}
 			

@@ -1,43 +1,43 @@
-life:
+๏ปฟlife:
   console:
-    invalidCommand: 'ง4Invalid Command!'
+    invalidCommand: 'ยง4Invalid Command!'
     sender:
-      sucess: 'ง5You healed the งrง3%pงrง5 wih successfully!'
-      invalidPlayer: 'ง4Can''t find the player %p!'
+      sucess: 'ยง5You healed the ยงrยง3%pยงrยง5 wih successfully!'
+      invalidPlayer: 'ยง4Can''t find the player %p!'
     target:
-      sucess: 'ง5You have been healed!'
+      sucess: 'ยง5You have been healed!'
   player:
     sender:
-      invalidPlayer: 'ง4Can''t find the player %p!'
-      invalidCommand: 'ง4Invalid Command!'
+      invalidPlayer: 'ยง4Can''t find the player %p!'
+      invalidCommand: 'ยง4Invalid Command!'
       noPermission:
-        yourself: 'ง4You haven''t permission to do this!'
-        other: 'ง4You haven''t permission to do this!'
+        yourself: 'ยง4You haven''t permission to do this!'
+        other: 'ยง4You haven''t permission to do this!'
       sucess:
-        yourself: 'ง5You have been healed with sucess!'
-        other: 'ง5You healed the งrง3%pงrง with sucess!'
+        yourself: 'ยง5You have been healed with sucess!'
+        other: 'ยง5You healed the ยงrยง3%pยงrยง5 with sucess!'
     target:
-      sucess: 'ง5You have been healed by the งrง3%pงrง5!'
+      sucess: 'ยง5You have been healed by the ยงrยง3%pยงrยง5!'
   sign:
-    sucess: 'ง5You have been healed!'
+    sucess: 'ยง5You have been healed!'
 hunger:
   console:
-    invalidCommand: 'ง4Invalid Command!'
+    invalidCommand: 'ยง4Invalid Command!'
     sender:
-      sucess: 'ง5You fed งrง3%pงrง5 wih successfully!'
-      invalidPlayer: 'ง4Can''t find the player %p!'
+      sucess: 'ยง5You fed ยงrยง3%pยงrยง5 wih successfully!'
+      invalidPlayer: 'ยง4Can''t find the player %p!'
     target:
-      sucess: 'ง5You were fed!'
+      sucess: 'ยง5You were fed!'
   player:
     sender:
-      invalidCommand: 'ง4Invalid Command!'
+      invalidCommand: 'ยง4Invalid Command!'
       noPermission:
-        yourself: 'ง4You haven''t permission to do this!'
-        other: 'ง4You haven''t permission to do this!'
+        yourself: 'ยง4You haven''t permission to do this!'
+        other: 'ยง4You haven''t permission to do this!'
       sucess:
-        yourself: 'ง5You were fed with sucess!'
-        other: 'ง5You fed งrง3%pงrง with sucess!'
+        yourself: 'ยง5You were fed with sucess!'
+        other: 'ยง5You fed ยงrยง3%pยงrยง5 with sucess!'
     target:
-      sucess: 'ง5You were fed by the งrง3%pงrง5!'
+      sucess: 'ยง5You were fed by the ยงrยง3%pยงrยง5!'
   sign:
-    sucess: 'ง5You were fed!'
+    sucess: 'ยง5You were fed!'

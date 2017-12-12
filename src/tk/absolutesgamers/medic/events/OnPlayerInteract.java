@@ -1,5 +1,6 @@
 package tk.absolutesgamers.medic.events;
 
+import org.bukkit.attribute.Attribute;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -28,7 +29,7 @@ public class OnPlayerInteract implements Listener {
 				
 				if(sign.getLine(0).equalsIgnoreCase("§4[Health]")) {
 					if(player.hasPermission("life.sign.use")) {
-						Double maxHealth = player.getMaxHealth();
+						Double maxHealth = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getDefaultValue();
 						player.setHealth(maxHealth);
 						player.sendMessage(files.getTranlation().getString("life.sign.sucess"));
 					}
